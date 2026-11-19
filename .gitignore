@@ -1,0 +1,18 @@
+# Secrets never belong in this repo.
+.env
+*.env
+token.txt
+secrets.toml
+scratch.http
+env.sh
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
