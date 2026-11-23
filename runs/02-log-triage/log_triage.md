@@ -1,0 +1,1 @@
+Log triage of /opt/data/tasks/errors.log: 2825 lines in total, 12 lines containing ValueError, and 12 lines containing TimedOut. The ValueError lines repeat one message about the auxiliary compression model having a 32768-token window, below the 64000-token minimum Hermes requires.
