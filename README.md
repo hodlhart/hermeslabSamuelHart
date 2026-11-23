@@ -18,6 +18,7 @@ The bot token and the server address are not in this repository. The instructor 
 runs/     one folder per task: the agent's transcript, the output, and the session log
 skill/    the reusable skill, copied out of the agent's /opt/data/skills/
 tasks/    the answer key I checked each task against
+tools/    the read-only exporter used to pull the session logs out of state.db
 ```
 
 Any Python submitted here heads with:

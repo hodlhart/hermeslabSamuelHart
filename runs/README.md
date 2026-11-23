@@ -19,7 +19,7 @@ failure is the iteration evidence.
   normal turn on the box.
 - `session-log.md` is a read-only export of the agent's own session records from
   `/opt/data/state.db`: prompt, tool arguments, raw tool results, replies. Nothing in it
-  is retyped.
+  is retyped. `tools/export_session.py` is the exporter, run on the box.
 - `disk_finding.md`, `log_triage.md`, and `process_audit.md` are the files the tasks
   produced, copied out of the run folders on the box.
 
