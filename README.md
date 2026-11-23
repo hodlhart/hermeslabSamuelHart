@@ -107,6 +107,8 @@ following the skill in a normal turn.
 
 The loop for every task: state the goal, make it run one command, read the raw output,
 check it against `tasks/ground-truth.md`, and correct the specific thing that was wrong.
+The three tasks ran over SSH on the box, one turn at a time; the skill was built the week
+before over Telegram.
 
 The first attempt was the exception, and it is kept in `runs/00-first-attempt/`. I gave
 the agent one prompt with seven numbered steps. It read the CSV, then edited it, renaming
